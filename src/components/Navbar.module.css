@@ -1,0 +1,5 @@
+.makeHover:hover {
+    cursor: pointer;
+    --tw-bg-opacity: 1;
+    background-color: rgba(67, 56, 202, var(--tw-bg-opacity));
+}

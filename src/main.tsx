@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 import { AboutMe } from './pages/AboutMe.tsx'
 import { Layout } from './Layout/Layout.tsx'
 import { Hobbies } from './pages/Hobbies.tsx'
+import { hobbyData } from './utilities/data.ts'
 
 
 createRoot(document.getElementById('root')!).render(

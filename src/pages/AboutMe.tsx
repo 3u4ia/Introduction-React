@@ -1,17 +1,11 @@
 import Picture from '../assets/picOfMe.jpg'
-import {Navbar} from '../components/navbar'
+import { generalDivStyles } from "../utilities/data"
 
 export const AboutMe = () => {
 
     return(
         
-        <div className="
-            bg-gradient-to-br from-indigo-600 to-green-600
-            w-screen 
-            h-screen 
-            text-white
-            font-mono"
-        >
+        <div className={generalDivStyles}>
             
             <p className="text-[3rem] text-center">About Me</p>
             <p className="text-[2.3rem] text-center">Leroy</p>
@@ -20,7 +14,7 @@ export const AboutMe = () => {
                 className="w-80 justify-self-center pt-4"
             />
             <p className='p-5 '>
-                Hello everyone, I am a Computer Science major. 
+                Hello, I am a Computer Science major. 
                 I chose this major because the idea of being able to create something that can affect the real world from behind a computer screen intrigued me. 
                 My favorite language as of right now is Java. For fun during breaks I enjoy playing games such as Rocket League and League of Legends. 
                 I enjoy reading whenever I can. My number one goal in life is to be the best at "something". 
